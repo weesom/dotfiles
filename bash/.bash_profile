@@ -3,8 +3,7 @@
 #
 
 export EDITOR="vim"
-export TERMINAL="kitty"
-#export BROWSER="chromium"
+export TERMINAL="alacritty"
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
@@ -19,3 +18,4 @@ export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"
 export WINEPREFIX="${XDG_DATA_HOME:-$HOME/.local/share}/wineprefixes/default"
 
 export PATH="$HOME/scripts:$PATH"
+source "/home/vm/.local/share/cargo/env"
