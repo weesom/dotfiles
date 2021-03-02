@@ -15,5 +15,3 @@ shopt -s checkwinsize
 source /usr/share/bash-completion/bash_completion
 
 complete -cf man which doas
-
-source "/home/vm/.local/share/cargo/env"
