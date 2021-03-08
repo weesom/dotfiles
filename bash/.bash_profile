@@ -21,4 +21,5 @@ export PATH="$HOME/scripts:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 source "/home/vm/.local/share/cargo/env"
+source ~/.bashrc
 
