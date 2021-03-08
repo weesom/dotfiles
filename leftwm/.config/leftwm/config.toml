@@ -10,7 +10,7 @@ key = "p"
 
 [[keybind]]
 command = "Execute"
-value = "alacritty"
+value = "st -e tmux"
 modifier = ["modkey", "Shift"]
 key = "Return"
 
@@ -250,4 +250,16 @@ command = "Execute"
 value = "passmenu -b"
 modifier = ["modkey", "Shift"]
 key = "p"
+
+[[keybind]]
+command = "IncreaseMainWidth"
+value = "20"
+modifier = ["modkey", "Shift"]
+key = "l"
+
+[[keybind]]
+command = "DecreaseMainWidth"
+value = "20"
+modifier = ["modkey", "Shift"]
+key = "h"
 
