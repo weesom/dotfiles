@@ -33,7 +33,7 @@ sizes=( $(leftwm-state -q -n -t $SCRIPTPATH/sizes.liquid | sed -r '/^\s*$/d') )
 index=0
 for size in "${sizes[@]}"
 do
-   leftwm-state -w $index -t $SCRIPTPATH/template.liquid | lemonbar -b -g $size -F#FFFFFFFF -B#AA222222&
+   leftwm-state -w $index -t $SCRIPTPATH/template.liquid | lemonbar -b -g $size -F#D8DEE9 -B#2E3440 -U#D08770 -u3 &
    let index=index+1
 done
 

@@ -1,14 +1,15 @@
-{% assign mine_open = '%{F#000000}%{B#FFFFFF}' %}
-{% assign mine_close = '%{B-}%{F-}' %}
-{% assign visible_open = '%{F#000000}%{B#999999}' %}
-{% assign visible_close = '%{B-}%{F-}' %}
+{% assign swap_colors = '%{R}' %}
+{% assign start_underline = '%{+u}' %}
+{% assign end_underline = '%{-u}' %}
 
 {% for tag in workspace.tags %}
 {% if tag.mine %}
-{{mine_open}}  {{ tag.name }}  {{mine_close}}
+{{swap_colors}}  {{ tag.name }}  {{swap_colors}}
 {% elsif tag.visible  %}
-{{visible_open}}  {{ tag.name }}  {{visible_close}}
-{% else tag.visible  %}
+{{swap_colors}}  {{ tag.name }}  {{swap_colors}}
+{% elsif tag.busy %}
+{{start_underline}}  {{tag.name}}  {{end_underline}}
+{% else %}
   {{ tag.name }}  
 {% endif %}
 {% endfor %}

@@ -10,7 +10,7 @@ key = "p"
 
 [[keybind]]
 command = "Execute"
-value = "st -e tmux"
+value = "st -e tmux new -As0"
 modifier = ["modkey", "Shift"]
 key = "Return"
 
@@ -251,15 +251,21 @@ value = "passmenu -b"
 modifier = ["modkey", "Shift"]
 key = "p"
 
+#[[keybind]]
+#command = "IncreaseMainWidth"
+#value = "20"
+#modifier = ["modkey", "Shift"]
+#key = "l"
+#
+#[[keybind]]
+#command = "DecreaseMainWidth"
+#value = "20"
+#modifier = ["modkey", "Shift"]
+#key = "h"
+#
 [[keybind]]
-command = "IncreaseMainWidth"
-value = "20"
-modifier = ["modkey", "Shift"]
-key = "l"
-
-[[keybind]]
-command = "DecreaseMainWidth"
-value = "20"
-modifier = ["modkey", "Shift"]
-key = "h"
+command = "Execute"
+value = "wmctrl -ir `xdotool getwindowfocus` -b toggle,fullscreen"
+modifier = ["modkey"]
+key = "f"
 

@@ -3,6 +3,7 @@ set softtabstop=4
 set shiftwidth=4
 set shiftround
 set nojoinspaces
+set nowrap
 
 set number relativenumber
 
