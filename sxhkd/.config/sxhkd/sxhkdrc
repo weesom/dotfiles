@@ -1,0 +1,14 @@
+XF86Audio{RaiseVolume,LowerVolume}
+	pamixer {-i,-d} 5
+
+XF86AudioMute
+	pamixer -t
+
+XF86AudioMicMute
+	pamixer --default-source -t
+
+XF86MonBrightness{Up,Down}
+	xbacklight {+ ,-} 5
+
+alt + shift + p
+	passmenu -b
