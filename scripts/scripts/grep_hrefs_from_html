@@ -1,0 +1,2 @@
+#!/bin/sh
+grep -Eoi '<a [^>]+>' bookmarks.html | grep -Eoi 'href="[^\"]+"' | grep -Eoi '(http|https)://[^"]+'
