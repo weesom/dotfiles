@@ -4,7 +4,7 @@ xrandr --output DP-0 --mode 3440x1440 --rate 142.92
 
 #exec dbus-launch leftwm
 
-feh --no-fehbg --bg-fill --randomize /usr/share/wallpapers/**/*.jpg
+feh --no-fehbg --bg-fill --randomize /usr/share/backgrounds/**/*.jpg
 slstatus &
 picom &
 sxhkd &
