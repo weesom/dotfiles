@@ -12,3 +12,7 @@ XF86MonBrightness{Up,Down}
 
 alt + shift + p
 	passmenu -b
+
+alt + shift + Return
+	st -e tmux new -As0
+
