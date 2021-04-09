@@ -19,6 +19,7 @@ export WINEPREFIX="${XDG_DATA_HOME:-$HOME/.local/share}/wineprefixes/default"
 
 export PATH="$HOME/scripts:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/.local/bin"
 
 source "/home/vm/.local/share/cargo/env"
 source ~/.bashrc
