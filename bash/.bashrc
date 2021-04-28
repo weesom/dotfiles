@@ -7,6 +7,8 @@
 
 alias ls='ls --color=auto'
 alias gst='git status'
+alias gsta='git stash'
+alias gr='git rebase'
 alias gch='git checkout'
 
 PS1='[\u@\h \W]\$ '

@@ -14,5 +14,5 @@ alt + shift + p
 	passmenu -b
 
 alt + shift + Return
-	st -e tmux new -As0
+	$TERMINAL -e tmux new -As0
 
