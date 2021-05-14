@@ -1,9 +1,6 @@
-set tabstop=2 softtabstop=2
-set shiftwidth=2
+set tabstop=2 shiftwidth=2 expandtab
 set shiftround
-set nojoinspaces
-set nowrap
-set relativenumber
+set number relativenumber
 set nohlsearch incsearch
 set ignorecase smartcase
 set scrolloff=8
