@@ -1,6 +1,7 @@
 set tabstop=2 shiftwidth=2 expandtab
 set shiftround
 set number relativenumber
+set nojoinspaces
 set nohlsearch incsearch
 set ignorecase smartcase
 set scrolloff=8
